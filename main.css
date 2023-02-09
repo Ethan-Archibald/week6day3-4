@@ -1,0 +1,122 @@
+body{
+    font-family: Itim;
+    background-color: #FAF9F6;
+    width: 1100px;
+    margin: 50px auto;
+}
+
+.header{
+    font-family: Itim;
+    background-color: white;
+    padding: 20px;
+}
+.header h1{
+    font-size: 40px;
+    margin: 0;
+}
+.header span{
+    font-size: 20px;
+}
+
+.commentSection{
+    background-color: #D3D3D3;
+    height: 600px;
+    overflow-y: scroll;
+}
+
+.commentSection::-webkit-scrollbar{
+    display: none;
+}
+
+.userSection{
+    background-color: white;
+    padding: 20px;
+}
+
+.inputSection{
+    display: inline-flex;
+    margin: 5px;
+}
+
+
+#displayName {
+   font-family: Itim;
+   width: 120px;
+   font-size: 18px;
+   padding: 5px;
+   border: 1px solid gray;
+   border-radius: 5px;
+}
+
+#comment{
+    font-family: Itim;
+    width: 750px;
+    font-size: 18px;
+    padding: 5px;
+    border: 1px solid gray;
+    border-radius: 5px;
+}
+
+#submitButton{
+    cursor: pointer;
+    font-size: 25px;
+    color:deepskyblue;
+    margin-left: 20px;
+    user-select: none;
+}
+
+.commentContainer{
+    display: inline-flex;
+    background-color: white;
+    width: 1020px;
+    margin: 20px;
+    padding: 20px;
+}
+
+.commentImage{
+    width: 70px;
+    height: 70px;
+}
+
+.parent{
+    margin: 0px;
+    padding: 0px;
+    padding-left: 10px;
+    width: 940px;
+}
+
+.displayNameContent{
+    display: inline-block;
+    margin: 0px;
+    font-size: 20px;
+    width: 800px;
+}
+
+.mainComment{
+    margin:  0px;
+    font-size: 40px;
+    width: 900px;
+    overflow-wrap: break-word;
+}
+
+.buttons{
+    display: inline-flex;  
+}
+
+.editButton, .deleteButton {
+    cursor: pointer;
+    font-size: 20px;
+    color:deepskyblue;
+    height: fit-content;
+    padding-left: 10px;
+    padding-right: 10px;
+    user-select: none;
+}
+
+.editSection{
+    display: inline-flex;
+}
+
+.editSection #comment{
+    width: 820px;
+}
